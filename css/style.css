@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,600;1,700&family=League+Gothic&family=Mulish:wght@200;400&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display&family=Poppins:ital@0;1&family=Shizuru&family=Smooch+Sans&display=swap');
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    width: 1152px;
+}
+
+/* 
+colors */
+/* #CCA4AF      p */
+/* #F9004D      red */
+/* ahmed     #F9004D */
+/* designer    #F9004D */
+/* lest btn     #C20626 */
+/* icon    #F9004D */
+/* 
+
+
+*/
+
+.hero{
+ background-image: url('../images/background.jpg');
+    height: 100vh;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+position: relative;
+}
+.hero-text{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 12%;
+}
+.hero-text h3{
+    font-size: 20px;
+    color: #CCA4AF ;
+    font-weight: bold;
+}
+.hero-text h1{
+    font-size: 75px;
+    margin: 30px 0px;
+    font-weight: bold;
+}
+.hero-text h4{
+    font-size: 25px;
+margin: 35px 0px;
+color: white;
+font-weight: bold;
+margin-bottom: 50px;
+}
+.hero-text h1 span{
+    color: #F9004D  ;
+   
+}
+.input-btn input {
+  color: white;
+width: 400px;
+height: 60px;
+padding: 0px 25px;
+font-weight: bold;
+border: transparent;
+border-radius: 50px;
+
+
+}
+.input-btn{
+    border-radius: px solid #F9004D;
+border: 3px solid #F9004D;
+background-color: white;
+color: white;
+border-radius: 50px;
+}
+.Lets-start{
+    background-color: #F9004D;
+    padding: 20px 50px;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    border: 1px transparent;
+ margin: 9px 10px;
+}
+.input-btn input:focus{
+    outline: none;
+}
+
+/* .navber */
+menu{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 60px;
+left: 7%;
+
+}
+.navbar{
+    padding: 0px 80px;
+}
+nav{
+    margin-left: 7%;
+
+}
+.logo h1 span{
+color: rgba(255, 0, 0, 0.876);
+}
+nav ul li{
+    display: inline-block;
+margin: 0px 35px;
+}
+nav ul li a{
+
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+
+}
+nav ul li a:hover{
+    color: #f9004d;
+}
+.subscribe-btn{
+    transform: translate(0.3s);
+  
+
+}
+
+.subscribe{
+     background-color: #f9004d;
+    color: white;
+    text-decoration: no
+  
+  
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 20px 50px;
+    border-radius: 40px;
+    cursor: pointer;
+
+margin-left: 200%;
+}
+.logo h1{
+    color: white;
+    font-size: 75px;
+}
+
+.about section
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+
+}
+.subscribe-btn :hover{
+    transform: scale(1.2);
+}
+
+.navbar{
+    position: absolute;
+    z-index: 1;
+    left: 8%;
+}
+
+.about-text{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-section{
+    background-color: rgba(0, 0, 0, 0.866);
+    display: flex;
+    color: white;
+    justify-content:center;
+    align-items: center;
+  
+}
+.about-text h1{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.about-text{
+    margin-left: 100px;
+}
+.lets-btn{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+margin: 0px 20px;
+}
+.lets-btn:hover{
+    background-color: transparent;
+    border:2px solid #f9004d ;
+    transform: scale(1.2);
+}
+/* service-section */
+.grid-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+
+}
+.service-section{
+background-color: black;
+color: white;
+text-align: center;
+}
+.card{
+   
+margin: 100px 0px;
+height: 450px;
+width: 400px;
+margin-top: 20px;
+
+
+
+border-radius: 30px;
+
+color: white;
+text-decoration: none;
+background-color:#191919;
+font-weight: bold;
+padding: 100px 50px;
+border-radius: 30px;
+
+
+}
+.card h2{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+
+}
+
+
+.my-service h1{
+   padding: 100px 0px;
+   font-size: 75px;
+
+text-align: center;
+}
+.card p{
+    
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+margin-top: 30px;
+}
+.card i{
+    color: #F9004D;
+}
+
+.letss-btn{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    margin: 0px 25px;
+transform: translate(0.3s);
+}
+.letss-btn:hover{
+    transform: scale(1.3);
+    background-color: transparent;
+    border: 2px solid #f9004d;
+}
+
+
+
+
+/* let-me-section */
+.let-me-text p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* 
+footersection */
+.let-me-section{
+    background-color: #191919;
+    text-align: center;
+    padding: 100px 0px;
+}
+.footer-text h1{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+text-align: center;
+}
+.footer-text p{
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+margin-top: 30px;
+}
+.footer-texteds p{
+
+    color: #F9004D;
+    bottom: 35px;
+    font-size: 14px;
+margin-top: 100px;
+
+}
+.footer{
+    background-color: black;
+padding: 100px 40% ;
+}
+.icon-box{
+    display: flex;
+    padding-top: 50px;
+
+    color: white;
+
+margin: 0px 40px;
+}
+.icon img{
+width:90px;
+padding: 25px;
+
+}
+.icon-box a img {
+    color: white;
+}
+.icon{
+    background-color: #F9004D;
+    margin: 0px 8px;  
+    align-items: center;
+    border-radius: 50%;
+    transform: translate(0.3s);
+}
+.icon-box .icon a img:hover{
+    transform: scale(1.2);
+}
